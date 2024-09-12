@@ -30,7 +30,7 @@ nav ul li a {
 
 .hero {
     background: url('hero.jpg') no-repeat center center/cover;
-    color: white;
+    color: #333;
     padding: 50px 0;
     text-align: center;
 }
@@ -43,9 +43,20 @@ nav ul li a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.about {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
 footer {
+    width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+    bottom: 0;
 }
